@@ -1,0 +1,172 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/***********************global css start here***********************/
+.title{
+	width: 100%;
+	padding: 30px 0px;
+}
+.title h5{
+	font-size: 17px;
+	list-height: 27px;
+	font-weight: 600;
+	text-align: center;
+	color: #008ed6;
+}
+
+.title h1{
+	font-size: 40px;
+	list-height: 50px;
+	font-weight: 500;
+	text-align: center;
+	color: #000;
+}
+
+
+/***********************global css start here***********************/
+.header{
+	width: 100%;
+	background-image: url("../images/home.png");
+	background-size: cover;
+	height: 100vh;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 550;
+	margin: 0px 0px 0px 10px;
+
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link{
+	background: url("../images/line.png") centre bottom no-repeat;
+	background-size: auto;
+	
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	background: url("../images/line.png") centre bottom no-repeat;
+	background-size: auto;
+	
+}
+
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.banner h5{
+	font-size: 17px;
+	line-height: 27px;
+	font-weight: 600;
+	color: #008ed6;
+}
+
+.banner h1{
+	font-size: 40px;
+	list-height: 50px;
+	font-weight: 500;
+	color: #fff;
+	margin: 15px 0px;
+}
+
+.banner p{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #999999;
+	margin: 10px 0px 0px;
+}
+
+.button-group{
+	width: 100%;
+	margin: 50px 0px 0px;
+
+}
+
+.button-group .btn-btn-primary{
+	padding: 10px 25px ;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #0083d6;
+	border: 1px solid #008ed6;
+	border-radius: 4%;
+	transition: 1s;
+}
+
+.button-group .btn-primary:hover, .button-group .btn-primary:focus{
+	color: #fff;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.button-group .btn-secondary{
+	padding: 10px 25px ;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #0083d6;
+	border: 1px solid #008ed6;
+	border-radius: 4%;
+	margin: 0px 0px 0px 15px;
+	transition: 1s;
+
+}
+
+.button-group .btn-secondary:hover, .button-group .btn-secondary:focus{
+	color: #fff;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.features{
+	widows: 100%;
+	padding: 30px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+
+.features .title{
+	text-align: center;
+}
+
+.col-lg-3 .inner-features{
+	width: 100%;
+	padding: 10px 20px ;
+	text-align: center;
+}
+
+.col-lg-3 .inner-features .icons{
+	width: 100px;
+	height: 100px;
+	padding: 35px;
+	margin: 0px auto;
+	border: 1px solid #eee;
+	border-radius: 100%;
+}
+
+.col-lg-3 .inner-features .icons:hover{
+	border: 1px solid #008ed6;
+}
+
